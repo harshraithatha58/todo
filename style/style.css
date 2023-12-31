@@ -83,4 +83,11 @@ ul{
 #reset{
     display:flex;
     justify-content: center;
+    padding: 10px;
+}
+
+button{
+    border-radius:30px ;
+    width: 100px;
+    height: 30px;
 }

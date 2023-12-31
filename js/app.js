@@ -24,5 +24,5 @@ console.log(takeOldUlInnerHtml);
 let reset  =  document.querySelector("#reset");
 
 reset.addEventListener("click",()=>{
-    window.location.href = "https://harshraithatha58.gihub.io/todo/"
+    window.location.href = "https://harshraithatha58.github.io/todo/"
 })
