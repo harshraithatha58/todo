@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todo</title>
+    <title>Task</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
-    
+    <main>
+        <div id="container">
+            <p>Task</p>
+        </div>
+        <div class="taskList">
+            <label for="taskListInput" hidden>Enter Task</label>
+            <div id="taskListInputDIV">
+                <input type="text" name="task" id="taskListInput" placeholder="Enter Task" autocomplete="off">
+            </div>
+            <button type="submit" id="taskSubmit">Submit</button>
+        </div>
+        <div class="out">
+            <div class="mainOutput">
+                <ul id="mainUl">
+                    <li class="mainLi">Enter input display here...</li>
+                </ul>
+            </div>
+        </div>
+        <div id="reset">
+            <button type="reset">reset</button>
+        <div>
+    </main>
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
